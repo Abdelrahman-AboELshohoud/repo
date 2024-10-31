@@ -5,8 +5,8 @@ const {
   login,
   logout,
   validateToken,
-} = require("../controllers/auth.controller.js");
-const { verifyToken } = require("../middlewares/verifications.js");
+} = require("./controllers/auth.controller.js");
+const { verifyToken } = require("./verifications.js");
 
 router.post("/register", register);
 
